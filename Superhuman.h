@@ -47,7 +47,7 @@ public:
     SUnitDescription* desc = new SUnitDescription;
 
     Superhuman();
-	bool IsInGame(); //buggy sometimes, causing random crashes while in the menu
+    bool IsInGame(); //buggy sometimes, causing random crashes while in the menu
     bool IsValidUnit(SUnit* unit, bool iterate = true, int index = 0, bool exclview = true, bool exclmine = true, bool exlflag = true);
     bool IsServiceUnit(SUnit* unit);
     bool IsSpecialUnit(SUnit* unit);
