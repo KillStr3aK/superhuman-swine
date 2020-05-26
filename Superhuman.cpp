@@ -365,8 +365,8 @@ DWORD Superhuman::MultiPtr(DWORD ptr, std::vector<unsigned int> offsets) //GH
 Superhuman::Superhuman()
 {
     this->Initialize();
-	this->CreateConsole(TITLE);
-	printf("LOADED\n");
+    this->CreateConsole(TITLE);
+    printf("LOADED\n");
 }
 
 void Superhuman::Initialize()
